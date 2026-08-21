@@ -21,7 +21,7 @@ To set up Code Revive locally, follow these steps:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/wepandas4/Code-Revive.git
+   git clone https://github.com/Sumu004/Code-Revive.git
    cd Code-Revive
    ```
 
@@ -36,12 +36,13 @@ To set up Code Revive locally, follow these steps:
    pip install -r requirements.txt
    ```
 
-4. **Replace Groq API**
+4. **Set your Groq API key**
    ```bash
-    client = Groq(api_key='YOUR_API_KEY')
+   cp .env.example .env
    ```
+   Fill in `GROQ_API_KEY` in `.env`.
 
-6. **Run the Streamlit app**
+5. **Run the Streamlit app**
    ```bash
    streamlit run app.py
    ```
@@ -49,9 +50,10 @@ To set up Code Revive locally, follow these steps:
 ## Usage
 
 1. Open your web browser and go to `http://localhost:8501`.
-2. Input your codebase Zip file.
-3. Select the target programming language from the dropdown menu.
-4. Click the "Convert" button to see the converted code in real-time.
+2. Upload your codebase as a zip file.
+3. Select the target programming language from the sidebar.
+4. Click "Analyze Codebase" to see the converted code, its test-case
+   accuracy score, and generated technical documentation.
 
 ## Contributing
 
