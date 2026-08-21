@@ -65,11 +65,6 @@ Contributions are welcome! If you'd like to contribute to Code Revive, please fo
 4. Push to the branch (`git push origin feature/YourFeature`).
 5. Open a pull request.
 
-## Acknowledgments
-
-- Special thanks to the contributors and the open-source community for their support.
-- Acknowledgment of the developers of LLAMA 3 and GROQ API for their groundbreaking technologies.
-
 ## About the Team
 
 This project was developed by our dedicated team. We are proud of our collective efforts and the innovative solutions we've created!
